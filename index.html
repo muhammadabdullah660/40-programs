@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>40+ Programs</title>
+</head>
+
+<body>
+    <!-- Loops Start -->
+    <div class="container-fluid">
+        <h1>Loops</h1><br>
+        <div class="row">
+            <!-- Natural Numbers -->
+            <div class="col-md-3">
+                <h3>Natural Numbers</h3><br>
+                Enter Limit value: <br>
+                <input type="text" placeholder="Enter a numeric value" id="natNum1">
+                <button class="button" onclick="natNum1F()">Result</button><br><br>
+                <p id="natNum1R" class="outputs"></p>
+            </div>
+            <!-- Natural Numbers (Reverse) -->
+            <div class="col-md-3">
+                <h3>Natural Numbers(Reverse)</h3><br>
+                Enter Limit value: <br>
+                <input type="text" placeholder="Enter a numeric value" id="natNumR1">
+                <button class="button" onclick="natNum1RF()">Result</button><br><br>
+                <p id="natNum1RR" class="outputs"></p>
+            </div>
+            <!-- Alphabets -->
+            <div class="col-md-3">
+                <h3>Alphabets(A to Z)</h3><br><br>
+                <button class="button" onclick="alphabetL()">lowercase</button>
+                <button class="button" onclick="alphabetU()">UPPERCASE</button><br><br>
+                <p id="alphaU" class="outputs"></p>
+                <p id="alphaL" class="outputs"></p>
+            </div>
+            <!-- Even/Odd Numbers(Two Programs) -->
+            <div class="col-md-3">
+                <h3>Even/Odd Numbers(Two Programs)</h3><br>
+                <button class="button" onclick="even()">Even</button> <button class="button" onclick="odd()">Odd
+                </button><br><br>
+                <p id="evenR" class="outputs"></p>
+                <p id="oddR" class="outputs"></p>
+            </div>
+        </div>
+    </div><br><br>
+    <!-- Loops End -->
+    <!-- Conditions Start -->
+    <div class="container-fluid">
+        <h1>Conditions</h1> <br>
+        <div class="row">
+            <!-- Maximum Number(2) -->
+            <div class="col-md-3">
+                <h3>Maximum Number(2)</h3><br>
+                Enter Numeric Values: <br>
+                <input type="number" placeholder="Enter value 1" id="num1"><br>
+                <input type="number" placeholder="Enter value 2" id="num2"><br>
+                <button class="button" onclick="maxNum2()">Find</button><br><br>
+                <p id="maxNum2R" class="outputs"></p>
+            </div>
+            <div class="col-md-3">
+                <h3>Maximum Number(3)</h3><br>
+                Enter Numeric Values: <br>
+                <input type="number" placeholder="Enter value 1" id="num1M"><br>
+                <input type="number" placeholder="Enter value 2" id="num2M"><br>
+                <input type="number" placeholder="Enter value 3" id="num3M"><br>
+                <button class="button" onclick="maxNum3()">Find</button><br><br>
+                <p id="maxNum3R" class="outputs"></p>
+            </div>
+            <!-- Divisible by 5 or 11? -->
+            <div class="col-md-3">
+                <h3>Divisible by 5 or 11?</h3><br>
+                Enter Numeric Value: <br>
+                <input type="number" placeholder="Enter value" id="numD"><br>
+                <button class="button" onclick="divisibleNum()">Find</button><br><br>
+                <p id="numDR" class="outputs"></p>
+            </div>
+            <!-- Vowel Or Consonant? -->
+            <div class="col-md-3">
+                <h3>Vowel Or Consonant?</h3><br>
+                Enter an Alphabet: <br>
+                <input type="text" placeholder="Enter a single alphabet" id="vowelC" maxlength="1"><br>
+                <button class="button" onclick="vowelConsonant()">Find</button><br><br>
+                <p id="vowelCR" class="outputs"></p>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Leap Year or not -->
+            <div class="col-md-3">
+                <h3>Leap Year?</h3><br>
+                Enter a Year: <br>
+                <input type="tel" id="leapYear" placeholder="Enter a Year" maxlength="4"> <br>
+                <button class="button" onclick="leapYear()">Check</button>
+                <p id="leap" class="outputs"></p>
+            </div>
+            <!-- Sign of Number -->
+            <div class="col-md-3">
+                <h3>Number Sign</h3><br>
+                Enter a numeric value: <br>
+                <input type="number" id="numSign" placeholder="Enter value"> <br>
+                <button class="button" onclick="numSign()">Check</button>
+                <p id="numSignR" class="outputs"></p>
+            </div>
+            <!-- Character is alphabet or not? -->
+            <div class="col-md-3">
+                <h3>Alphabet or not</h3><br>
+                Enter a single character: <br>
+                <input type="text" id="alphaC" placeholder="Enter a character" maxlength="1"> <br>
+                <button class="button" onclick="characterAlpha()">Check</button>
+                <p id="alphaCR" class="outputs"></p>
+            </div>
+            <div class="col-md-3">
+                <h3>Odd or Even?</h3><br>
+                Enter a numeric value: <br>
+                <input type="number" id="userOENum" placeholder="Enter a value"> <br>
+                <button class="button" onclick="evenOrOdd()">Check</button>
+                <p id="userOENumR" class="outputs"></p>
+            </div>
+        </div><br><br>
+        <div class="row">
+            <!-- Alphabet, digit or special character -->
+            <div class="col-md-4">
+                <h3>Alphabet, digit or special character?</h3><br>
+                Enter a single character: <br>
+                <input type="text" id="aDS" placeholder="Enter a character" maxlength="1"> <br>
+                <button class="button" onclick="aDSChar()">Check</button>
+                <p id="aDSR" class="outputs"></p>
+            </div>
+        </div>
+    </div><br><br>
+    <!-- Conditions End -->
+    <!-- Strings Start  -->
+    <div class="container-fluid">
+        <h1>Strings</h1> <br>
+        <div class="row">
+            <!-- Length of a string? -->
+            <div class="col-md-3">
+                <h3>Length of a string?</h3><br>
+                Enter a string value: <br>
+                <input type="text" id="strLen" placeholder="Enter a string"> <br>
+                <button class="button" onclick="stringLength()">Check</button>
+                <p id="strLenR" class="outputs"></p>
+            </div>
+            <!-- Copy one string to another string -->
+            <div class="col-md-3">
+                <h3>Copy one string to another</h3><br>
+                Enter string values: <br>
+                <input type="text" id="strCopy1" placeholder="Enter string 1"> <br>
+                <input type="text" id="strCopy2" placeholder="Enter string 2"> <br>
+                <button class="button" onclick="stringCopy()">Result</button>
+                <p id="strCopyR" class="outputs"></p>
+            </div>
+            <!-- Concatenate two strings -->
+            <div class="col-md-3">
+                <h3>Concatenate two strings</h3> <br>
+                Enter string values: <br>
+                <input type="text" id="strConc1" placeholder="Enter string 1"> <br>
+                <input type="text" id="strConc2" placeholder="Enter string 2"> <br>
+                <button class="button" onclick="stringConcatenate()">Result</button>
+                <p id="strConcR" class="outputs"></p>
+            </div>
+            <!-- Compare two strings -->
+            <div class="col-md-3">
+                <h3>Compare two strings</h3> <br>
+                Enter string values: <br>
+                <input type="text" id="strComp1" placeholder="Enter string 1"> <br>
+                <input type="text" id="strComp2" placeholder="Enter string 2"> <br>
+                <button class="button" onclick="stringCompare()">Find</button>
+                <p id="strCompR" class="outputs"></p>
+            </div>
+        </div><br>
+        <div class="row">
+            <!-- Lowercase string to uppercase -->
+            <div class="col-md-3">
+                <h3>Lowercase string to uppercase</h3> <br>
+                Enter string value: <br>
+                <input type="text" id="strLCase" placeholder="Enter a string value"> <br>
+                <button class="button" onclick="stringLCase()">Result</button>
+                <p id="strLCaseR" class="outputs"></p>
+            </div>
+            <!-- Uppercase string to lowercase -->
+            <div class="col-md-3">
+                <h3>Uppercase string to lowercase</h3> <br>
+                Enter string value: <br>
+                <input type="text" id="strUCase" placeholder="Enter a string value"> <br>
+                <button class="button" onclick="stringUCase()">Result</button>
+                <p id="strUCaseR" class="outputs"></p>
+            </div>
+            <!-- Total number of alphabets, digits or special character in a string -->
+            <div class="col-md-5">
+                <h3>Alphabets, digits or special character in a string</h3> <br>
+                Enter string value: <br>
+                <input type="text" id="strADS" placeholder="Enter a string value"> <br>
+                <button class="button" onclick="stringADS()">Find</button>
+                <p id="strADSR" class="outputs"></p>
+            </div>
+        </div><br>
+        <div class="row">
+            <!-- Last occurrence of a character  -->
+            <div class="col-md-3">
+                <h3>Last occurrence of a character</h3> <br>
+                Enter string values: <br>
+                <input type="text" id="locS" placeholder="Enter a string"> <br>
+                <input type="text" id="locC" placeholder="Enter a single character" maxlength="1"> <br>
+                <button class="button" onclick="stringLastOcc()">Find</button>
+                <p id="locR" class="outputs"></p>
+            </div>
+            <!-- First occurrence of a character  -->
+            <div class="col-md-3">
+                <h3>First occurrence of a character</h3> <br>
+                Enter string values: <br>
+                <input type="text" id="focS" placeholder="Enter a string"> <br>
+                <input type="text" id="focC" placeholder="Enter a single character" maxlength="1"> <br>
+                <button class="button" onclick="stringFirstOcc()">Find</button>
+                <p id="focR" class="outputs"></p>
+            </div>
+            <div class="col-md-3"></div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

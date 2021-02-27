@@ -1,0 +1,25 @@
+Strings Handling
+7. Write a js program to toggle case of each character of a string.
+9. Write a js program to count total number of vowels and consonants in a string.
+10. Write a js program to count total number of words in a string.
+11. Write a js program to find reverse of a string.
+12. Write a js program to check whether a string is palindrome or not.
+13. Write a js program to reverse order of words in a given string
+
+Array Handling
+1-Write a js program to read and print elements of array.
+2. Write a js program to print all negative elements in an array.
+3. Write a js program to find sum of all array elements.
+4. Write a js program to find maximum and minimum element in an array.
+5. Write a js program to find second largest element in an array.
+6. Write a js program to count total number of even and odd elements in an array.
+7. Write a js program to count total number of negative elements in an array.
+8. Write a js program to copy all elements from an array to another array.
+9. Write a js program to insert an element in an array.
+10. Write a js program to delete an element from an array at specified position.
+
+Math Methods
+1-Write a js program to round the number, without using the math.round method! 
+2-Write a js program to ceil the number without using math.ceil method!
+3-Write a js program to floor the number without using the math.floor method!
+
