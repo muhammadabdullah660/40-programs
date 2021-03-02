@@ -1,11 +1,35 @@
+ASSALAM O ALAIKUM!
+Attention Required
+Saylani Web and Mobile Development course - Batch3! 
+Assignment 15- Week15
+Note: It’s very important, and nice to have problem solving skill as a developer, please don’t try to catch concept for any problem from anywhere and try to code it! 
+Submit: https://forms.gle/N3Mhe6uJnVyAV9yj6
+Conditions
+1. Write a js program to find maximum between two numbers.
+2. Write a js program to find maximum between three numbers.
+3. Write a js program to check whether a number is negative, positive or zero.
+4. Write a js program to check whether a number is divisible by 5 and 11 or not.
+5. Write a js program to check whether a number is even or odd.
+6. Write a js program to check whether a year is leap year or not.
+7. Write a js program to check whether a character is alphabet or not.
+8. Write a js program to input any alphabet and check whether it is vowel or consonant.
+9. Write a js program to input any character and check whether it is alphabet, digit or special character.
 Strings Handling
+1. Write a js program to find length of a string.
+2. Write a js program to copy one string to another string.
+3. Write a js program to concatenate two strings.
+4. Write a js program to compare two strings.
+5. Write a js program to convert lowercase string to uppercase.
+6. Write a js program to convert uppercase string to lowercase.
 7. Write a js program to toggle case of each character of a string.
+8. Write a js program to find total number of alphabets, digits or special character in a string.
 9. Write a js program to count total number of vowels and consonants in a string.
 10. Write a js program to count total number of words in a string.
 11. Write a js program to find reverse of a string.
 12. Write a js program to check whether a string is palindrome or not.
 13. Write a js program to reverse order of words in a given string
-
+14. Write a js program to find first occurrence of a character in a given string.
+15. Write a js program to find last occurrence of a character in a given string.
 Array Handling
 1-Write a js program to read and print elements of array.
 2. Write a js program to print all negative elements in an array.
@@ -17,9 +41,15 @@ Array Handling
 8. Write a js program to copy all elements from an array to another array.
 9. Write a js program to insert an element in an array.
 10. Write a js program to delete an element from an array at specified position.
-
 Math Methods
 1-Write a js program to round the number, without using the math.round method! 
 2-Write a js program to ceil the number without using math.ceil method!
 3-Write a js program to floor the number without using the math.floor method!
-
+Loops
+1. Write a js program to print all natural numbers from 1 to n. - using for loop
+2. Write a js program to print all natural numbers in reverse (from n to 1). - using for loop
+3. Write a js program to print all alphabets from a to z. - using for loop
+4. Write a js program to print all even numbers between 1 to 100. - using forloop
+5. Write a js program to print all odd number between 1 to 100.
+Happy Coding!
+Naveed

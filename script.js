@@ -376,3 +376,38 @@ function stringFirstOcc() {
         }
     }
 }
+// Total number of words in a string.
+function numOfWords() {
+    var strNum = document.getElementById("strNum").value;
+    var countWord = 1;
+    if (strNum == "") {
+        alert("Enter String value")
+    }
+    for (let i = 0; i < strNum.length; i++) {
+        if (strNum.charAt(i) == " ") {
+            countWord = countWord + 1
+        }
+    }
+    console.log(`Total number of words in a string are ${countWord}`);
+    document.getElementById("strNumR").innerHTML = `Total number of words in a string are ${countWord}`
+}
+// Total number of vowels and consonants in a string.
+function vowelConsonantNum() {
+    var vowCons = document.getElementById("vowCons").value;
+    var vowelNum = 0;
+    var consonantNum = 0;
+    if (vowCons == "") {
+        alert("Enter a string value ");
+    }
+    else if (vowCons.match(/[a-z]/g)) {
+        for (let i = 0; i < vowCons.length; i++) {
+            if (vowCons[i].match(/[aeiou]/)) {
+                vowelNum++;
+            } else if (vowCons[i].match(/[a-z]/)) {
+                consonantNum++;
+            }
+        }
+    }
+    console.log(`Total number of consonants in given string = ${consonantNum} and Total number of vowels in given string = ${vowelNum}`);
+    document.getElementById("vowConsR").innerHTML = `Total number of consonants in given string = ${consonantNum} and Total number of vowels in given string = ${vowelNum}`
+}
